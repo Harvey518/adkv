@@ -8,7 +8,7 @@
 #include <fstream>
 #include <iostream>
 //test contraste texte
-#include "C:\Users\kaos\Documents\me\OKVM\apex_guest\Client\Client\imgui\imgui.h"
+#include "D:\code\adkv\apex_guest\Client\Client\imgui\imgui.h"
 
 typedef struct player
 {
@@ -41,7 +41,7 @@ int aim_key = VK_LBUTTON;
 int aim_key2 = VK_RBUTTON;
 //int bhop_key = VK_SPACE;
 //int rapidfire_key = VK_XBUTTON1;
-bool use_nvidia = false;
+bool use_nvidia = true;
 bool active = true;
 bool ready = false;
 extern visuals v;
